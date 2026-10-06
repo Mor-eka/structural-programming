@@ -1,0 +1,44 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    double marks;
+    char grade;
+
+printf("enter student's marks");
+scanf("%lf", &marks);
+
+if (marks>=70)
+grade= 'A';
+else if (marks>=60)
+    grade='B';
+else if (marks>=50)
+    grade='C';
+else if (marks>=40)
+    grade='D';
+else
+    grade='F';
+
+    switch(grade)
+    {
+  case 'A':
+ printf("grade:A- EXCELLENT");
+ break;
+
+  case 'B':
+    printf("grade:B -VERY GOOD");
+    break;
+
+  case 'C':
+    printf("grade:C-GOOD");
+    break ;
+  case 'D':
+      printf("grade:D-PASS");
+      break;
+  case 'F':
+    printf("grade:F-FAIL");
+    }
+
+    return 0;
+}
