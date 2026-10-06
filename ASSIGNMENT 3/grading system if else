@@ -1,0 +1,42 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    double marks;
+    char grade;
+
+    printf("enter students marks");
+    scanf("%lf", &marks);
+
+    if (marks>=70)
+    {
+        printf("grade=A");
+
+    }
+     else if (marks>=60)
+
+     {
+         printf("grade=B");
+
+     }
+     else if (marks>=60)
+     {
+         printf("grade=C");
+     }
+     else if (marks>=50)
+     {
+         printf("grade=D");
+
+     }
+       else
+      {
+          printf("grade=F");
+      }
+
+
+
+
+
+    return 0;
+}
